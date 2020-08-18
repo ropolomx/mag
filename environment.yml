@@ -19,7 +19,7 @@ dependencies:
   - bioconda::bowtie2=2.3.5
   - bioconda::quast=5.0.2
   - bioconda::prodigal=2.6.3
-  - bioconda::diamond=0.9.24 # 0.9.25 conflicts with Busco over boost
+  - bioconda::diamond=0.9.34 # 0.9.25 conflicts with Busco over boost and # 0.9.24 is incompatible with recent databases
   - conda-forge::r=3.6
   - conda-forge::biopython=1.74
   - bioconda::krona=2.7.1
